@@ -1,0 +1,324 @@
+html {
+  padding: 0%;
+    scroll-behavior: smooth;
+}
+body {
+
+    color: black;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+  position:fixed;
+  height: 100vh;
+  width: 20vw;
+}
+.nav-item{
+  box-shadow: 0 30px 60px -30px rgba(0,0,0,.45);
+}
+ul{
+  margin-bottom: 50px;
+}
+li a{
+  
+  font-size: 16px;
+  color: gray;
+  text-decoration: none;
+}
+li{
+  
+  
+  list-style: none;
+  margin-top:46px;
+  
+}
+h2{
+  margin-top: 0;
+}
+p{
+  margin-left: 15px;
+  padding: 1em;
+}
+.contanier{
+  display: flex;
+  
+  
+}
+
+.menu{
+  border-style: solid;
+  border-color: black;
+  width: 20vw;
+
+}
+.content{
+  border-style: solid;
+  border-color: black;
+  width: 80vw;
+  
+  
+  position: relative;
+}
+.section-icons{
+  display: flex;
+  background-color: #1b1d1f;
+  height: 45vh;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+} 
+.white-block{
+  position: absolute;
+  width:50%;
+  height: 65%;
+  border-radius: 10px;
+  min-height: 15%;
+  background-color: #006cff;
+  align-self:center;
+  top: 35vh;
+}
+.icon-card{
+  margin-top: 40px;
+}
+img.service-icon{
+  height: 70px;
+  filter: invert(99%) sepia(80%) saturate(277%) hue-rotate(274deg) brightness(114%) contrast(100%);
+}
+.josefin {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+#main-section{
+  
+  background-color:tan;
+  height: 100vh;
+  
+}
+#portfolio{
+  
+  background-color:tan;
+  height: 100vh;
+  
+}
+#services{
+  display: flex;
+  position: relative;
+  background-color:whitesmoke;
+  height: 100vh;
+  flex-direction: column;
+  
+}
+#about-us{
+  
+  background-color:tan;
+  height: 100vh;
+  
+}
+#contact{
+  
+  background-color:tan;
+  height: 100vh;
+  
+}
+
+.social-media{
+  display: flex;
+  width: 100%;
+  
+  justify-content: space-evenly;
+}
+.social-icons{
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+.fb-icon{
+  
+  background-image:url(./img/021-facebook.svg);
+  opacity: 0.7;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+
+}
+.instagram-icon{
+  
+  background-image:url(./img/025-instagram.svg);
+  opacity: 0.7;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  
+}
+.whatsapp-icon{
+  
+  background-image:url(./img/035-whatsapp.svg);
+  opacity: 0.7;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  
+}
+.fb-icon:hover {
+  
+  background-image:url(./img/facebook.svg);
+  opacity: 1;
+  
+}
+.instagram-icon:hover{
+  
+  background-image:url(./img/instagram.svg);
+  opacity: 1;
+    
+  
+}
+.whatsapp-icon:hover{
+  
+  background-image:url(./img/whatsapp.svg);
+  opacity: 1;
+    
+  
+}
+/*
+.pantalla{
+    
+    
+}
+#main-section{
+    
+    background-color:tan;
+    background-size: 20px;
+    height: 97vh;
+}
+p {
+    margin:10px
+    padding-left: 20px;
+}
+.wrapper { 
+  padding: 1em;
+
+    position:relative;
+    left: 30vw;
+    width: 70vw;
+
+}
+
+nav{
+}
+.navbar{
+    
+    margin: 0;
+    background-color:gray;
+    position: fixed;
+    height: 100vh;
+    width: 30vw;
+}
+
+
+
+
+
+*/
+
+
+
+
+
+/*
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+    }
+  
+    .logo {
+      display: none;
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+    }
+  
+    .nav-link {
+      justify-content: center;
+    }
+  
+    main {
+      margin: 0;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 600px) {
+    .navbar {
+      top: 0;
+      width: 5rem;
+      height: 100vh;
+    }
+  
+    .navbar:hover {
+      width: 16rem;
+    }
+  
+    .navbar:hover .link-text {
+      display: inline;
+    }
+  
+    .navbar:hover .logo svg
+    {
+      margin-left: 11rem;
+    }
+  
+    .navbar:hover .logo-text
+    {
+      left: 0px;
+    }
+  }
+  
+  .dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+  }
+  
+  .light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+  }
+  
+  .solar {
+    --text-primary: #576e75;
+    --text-secondary: #35535c;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+  }
+  
+  .theme-icon {
+    display: none;
+  }
+  
+  .dark #darkIcon {
+    display: block;
+  }
+  
+  .light #lightIcon {
+    display: block;
+  }
+  
+  .solar #solarIcon {
+    display: block;
+  }
+
+  */
